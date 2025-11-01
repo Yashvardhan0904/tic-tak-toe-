@@ -73,3 +73,9 @@
   object-fit: contain;
   pointer-events: none; /* ensures clicks still hit the box */
 }
+.play {
+    color: bisque;
+}
+.play span {
+    font-weight: bold;
+}

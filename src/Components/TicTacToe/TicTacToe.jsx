@@ -45,7 +45,8 @@ const TicTacToe = () => {
 
   return (
     <div className='container'>
-      <h1 className="title" > lock?winner={(count%2===0)?"x":"0"}:Tic Tac <span>Toe</span> </h1>
+      <h1 className="title" > Tic Tac <span>Toe</span> </h1>
+      <div className="play"><span>Your Turn </span> : {(count%2===0)?"x":"0"}</div>
       <div className="board">
         <div className="row1">
           <div className="boxes" onClick={(e) => toggle(e, 0)}></div>
